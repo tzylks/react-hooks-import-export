@@ -9,10 +9,10 @@ console.log(GryffFunctions.colors);
 GryffFunctions.gryffMascot();
 // => 'The Lion'
 
-// GryffFunctions.values();
-// => Attempted import error
+GryffFunctions.values();
+//=> Attempted import error
 
-export default function Hogwarts() {
+function Hogwarts() {
   whoseHouse();
 
   return (
@@ -21,3 +21,5 @@ export default function Hogwarts() {
     </div>
   );
 }
+
+export default Hogwarts
