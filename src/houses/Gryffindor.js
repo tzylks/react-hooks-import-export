@@ -1,11 +1,11 @@
 const colors = "Scarlet and Gold";
 
 function values() {
-  console.log("Courage, Bravery, Nerve and Chivalry");
+  console.log("Courage, Bravery, Nerve and Chivalry")
 }
 
 function gryffMascot() {
-  console.log("The Lion");
+  return "The Lion"
 }
 
-export { colors, gryffMascot };
+export { colors, gryffMascot, values};
